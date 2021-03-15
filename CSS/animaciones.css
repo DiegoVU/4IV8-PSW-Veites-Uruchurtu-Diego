@@ -1,0 +1,92 @@
+@keyframes animacion_test{
+
+    from{
+        background-color: brown;
+    }
+    to{
+        background-color: darkgoldenrod;
+
+    }   
+}
+@keyframes girar{
+
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes label-animation{
+    from{
+        transform: rotate(0deg);
+        margin:-left 0;
+    }
+    to{
+        transform: rotate(180deg);
+        margin-left: 85vw;
+    }
+}
+
+.label-container{
+  width:100%;
+  padding: 1rem;
+  box-sizing: 2px solid rgb(black);
+
+
+
+}
+.label{
+
+    width: 64px;
+    background-color: burlywood;
+    color:rgb(37, 153, 105) ;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+    animation-name: label-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.loader{
+
+    width: 64px;
+    height: 64px;
+    border: 10px solid black;
+    border-top: 5px solid rgb(170, 30, 90);
+    border-radius: 50%;
+    animation:girar 2s linear infinite;
+}
+
+.loader-doble{
+
+    width: 64px;
+    height: 64px;
+    border: 16px solid blue;
+    border-top: 16px solid rgb(238, 18, 172);
+    border-bottom: 16px solid rgb(7, 99, 65);
+    border-radius: 50%;
+    animation:girar 2s ease-in-out infinite;
+}
+
+.animada{
+
+    width: 100%;
+    background-color: rgb(62, 134, 110);
+    color: rgb(11, 12, 12);
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animacion_test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div#general{
+    margin:auto;
+    margin-top: 20px;
+    width: 960px;
+    height: 800px;
+    background-color: rgb(108, 88, 165);
+
+    
+}
+div#Hobby{
+    float:right;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(32, 97, 172);
+    border: 2.5px solid black;
+    
+    
+
+}
+div#General{
+    width: 640px;
+    height: 200px;
+    background-color: rgb(76, 66, 170);
+    border: 2.5px solid black;
+    text-align: center;
+    
+}
+
+div#info{
+    margin-top: 20px;
+    width: 640px;
+    height: 580px;
+    background-color: rgb(89, 9, 180);
+    border: 2.5px solid black;
+    text-align:left;
+
+}
+
+
+html, body{
+    background-color:rgb(153, 153, 153)
+} 
+
+    .DG{
+        text-align: left;
+    }
+.DG1{
+    text-align: left;
+}
+.EDU{
+    text-align: center;
+}
+.HOBB{
+    text-align: center;
+}
+.HAB{
+    text-align: center;
+}
+.DIP{
+    text-align: center;
+}
+.INSTAGRAM{
+    background-color: black;
+    text-align: right;
+    text-decoration: solid;
+
+}
+.FACEBOOK{
+    text-align: left;
+    text-decoration: solid;
+    background-color: black;
+    
+}
+.HOLA{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    
+}
