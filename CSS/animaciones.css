@@ -1,10 +1,10 @@
 @keyframes animacion_test{
 
     from{
-        background-color: brown;
+        background-color: rgb(211, 9, 9);
     }
     to{
-        background-color: darkgoldenrod;
+        background-color: rgb(24, 228, 41);
 
     }   
 }
