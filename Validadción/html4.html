@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema Secuencial 4</title>
+    <link rel="stylesheet" href="">
+    <script src="JS/problema4.js"></script>
+</head>
+<body>
+<nav>
+    <a href="index.html">Regresar</a>
+</nav>
+<br>
+<main class="main2">
+    <form method="post" name="formulario">
+        <table class="tabla" border="1">
+            <tr>
+                <td class="td_sup">Ingrese la sumatoria de sus calificaciones Parciales :</td>
+                <td class="td_inf"><input type="number" name="parciales"></td>
+            </tr>
+            <tr>
+                <td>Ingrese su calificación del examen: </td>
+                <td><input type="number" name="examen"></td>
+            </tr>
+            <tr>
+                <td>Ingrese la calificación de su trabajo final: </td>
+                <td><input type="number" name="tFinal"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Validar" name="Validar" onclick="cal()"></td>
+            </tr>
+            <tr>
+                <td class="td_sup">Su calificación final es de: </td>
+                <td><input type="text" name="calificacionFinal" id="cantidadi" readonly="readonly" class="input_text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Borrar" name="reset" onclick="borrar()"></td>
+            </tr>
+        </table>
+    </form>
+</main>
+</body>
+</html>
